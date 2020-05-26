@@ -1,0 +1,89 @@
+
+
+.container{
+   border-bottom: 1px  solid #e6e6e6; 
+   color: #aaa;
+   font-size: 1.1rem;
+   font-family: sans-serif;
+   padding: .25em 0;
+   padding-left: 10px;
+}
+
+
+.covid-19-info{
+    padding: 32px 10px 36px;
+    text-align: center;
+    color: #fff;
+    background-color: #14c3dc;
+}
+
+.covid-19-info__heading{
+    margin-bottom: 6px;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.covid-19-info__text{
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+.covid-19-info__link{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+
+
+.heading_1.mb_20{
+  font-size: 3.5vw;
+  text-align: center;
+  color: #14c3dc;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.mb_20.show_pc{
+  margin-bottom: 20px!important;
+}
+
+
+
+
+.sp_lead.show_sp{
+  color: #14c3dc;
+  display: inline-block;
+
+}
+
+
+.top_lead .fc_white_sh.show_pc{
+  margin-bottom: 55px;
+
+}
+
+
+.content_section.top_3step{
+  margin-top: -100px;
+  padding-bottom: 60px;
+}
+
+.content_inner{
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 64px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.heading_1.fc_white_sh{
+  text-shadow: 0 0 1px rgba(0,0,0,.4);
+  font-weight: 700;
+  margin-bottom: 24px;
+  
+}
+
