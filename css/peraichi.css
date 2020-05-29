@@ -72,209 +72,220 @@ body {
 
 
 
-.l-header{
-    position: relative;
-    width: 100%;
-    z-index: 1000;
-    letter-spacing: .025em;
-    font-family: sans-serif;
-}
 
-
-
-.l-header-upper__container.c-container.c-container--lg.u-flex.u-flex-ai-center{
-     /*align-items: center;
-     max-width: 1300px;
-     box-sizing: border-box;
-    max-width: 980px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: inherit;*/
-}
-
-
-
-.l-header-upper__nav{
-    align-items: center;
-    color: inherit;
-    display: -ms-flexbox;
-    display: flex;
-    height: 100%;
-    padding: 0 15px;
-    transition: box-shadow .2s ease;
-    position: relative;
-    white-space: nowrap;
-    z-index: 1;
-    color: #666;
-
-
-}
-
-.u-flex-ai-center{
-  align-items: center;
-}
-
-.u-flex{
-  display: flex;
-}
-
-.u-flex-grow-1{
-  flex-grow: 1;
-}
-
-
-.l-header-upper__service-in-btn {
-    display: block;
-    border-radius: 4px;
-    font-weight: 700;
-    padding: 11px;
-    min-width: 120px;
-    text-align: center;
-    letter-spacing: .05em;
-    margin-left: 10px;
-  }
-
-  .l-header-upper__service-in-btn--login{
-    color: #999;
-    box-shadow: inset 0 0 0 2px #e6e6e6;
-    transition: background-color .2s ease;
-  }
-  
-
-  .l-header-upper__service-in-btn--signup{ 
-    color: #fff;
-    background-color: #ffa408;
-    text-shadow: 0 0 3px #e68600;
-    transition: background-color .2s ease; 
-
-
-  }
-  
-
-
-  ._fallback_style.top_mainvisual{
-    overflow-x: hidden;
-    background-image: url(bg_main.gif);
-    background-repeat: no-repeat;
-    background-position: center top;
-    padding-top: 50px;
-  }
-
-
-  ._fallback_style{
-
-    letter-spacing: normal;
-
-  }
-
-
- 
-  
-
-
-
-.heading_1.mb_20{
-  font-size: 3.5vw;
+._fallback_style .top {
   text-align: center;
-  color: #14c3dc;
-  font-weight: 700;
-  display: inline-block;
-}
-
-.mb_20.show_pc{
-  margin-bottom: 20px!important;
 }
 
 
-
-
-.sp_lead.show_sp{
-  color: #14c3dc;
-  display: inline-block;
-
-}
-
-
-.top_lead .fc_white_sh.show_pc{
-  margin-bottom: 55px;
-
-}
-
-
-.top_3step{
-    margin-top: -100px;
-    background-image: url(bg_pattern1.png);
-    padding-bottom: 20px;
-    height: auto;
-}
-
-
-.top_3step_blocks{
-    margin-bottom: 70px;
-    position: relative;
-
-}
-
-
-.heading_3{
-  margin-bottom: 8px;
-
-}
-
-
-
-
-
-._fallback_style .content_inner {
-  box-sizing: border-box;
+._fallback_style .content {
+  transition: transform 200ms ease-in-out 0ms;
   position: relative;
-  padding: 0 64px;
-  max-width: 100%;
-  width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 
-
-.fc_white_sh{
-    color: #fff!important;
-    text-shadow: 0 0 1px rgba(0,0,0,.4);
-}
-
-.top_lead{     
-    color: #fff!important;
-    text-shadow: 0 0 1px rgba(0,0,0,.4);
-    margin-bottom: 55px;
-}
+      /*おどろきの簡単さ、早さ、安心を提供だれでもあっという間にホームページが作れます*/
 
 
+      .top_mainvisual {
+        overflow-x: hidden;
+        background-image: url(/images/bg_main.gif);
+        background-repeat: no-repeat;
+        background-position: center top;
+        padding-top: 50px;
+      }
 
 
-
-
-
-
-
-
-
-
-}
-
-
-.heading_1 .fc_white_sh{
-  text-shadow: 0 0 1px rgba(0,0,0,.4);
-  font-weight: 700;
-  margin-bottom: 24px;
-  
-}
+      ._fallback_style .top_mainvisual .heading_1 {
+        margin-bottom: 90px;
+        font-size: 3.5vw;
+        text-align: center;
+      }
 
 
 
 
 
 
+      .l-header{
+          position: relative;
+          width: 100%;
+          z-index: 1000;
+          letter-spacing: .025em;
+          font-family: sans-serif;
+      }
+
+
+
+      .l-header-upper__container.c-container.c-container--lg.u-flex.u-flex-ai-center{
+          /*align-items: center;
+          max-width: 1300px;
+          box-sizing: border-box;
+          max-width: 980px;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 10px;
+          padding-right: 10px;
+          height: inherit;*/
+      }
+
+
+
+      .l-header-upper__nav{
+          align-items: center;
+          color: inherit;
+          display: -ms-flexbox;
+          display: flex;
+          height: 100%;
+          padding: 0 15px;
+          transition: box-shadow .2s ease;
+          position: relative;
+          white-space: nowrap;
+          z-index: 1;
+          color: #666;
+
+
+      }
+
+      .u-flex-ai-center{
+        align-items: center;
+      }
+
+      .u-flex{
+        display: flex;
+      }
+
+      .u-flex-grow-1{
+        flex-grow: 1;
+      }
+
+
+      .l-header-upper__service-in-btn {
+          display: block;
+          border-radius: 4px;
+          font-weight: 700;
+          padding: 11px;
+          min-width: 120px;
+          text-align: center;
+          letter-spacing: .05em;
+          margin-left: 10px;
+        }
+
+        .l-header-upper__service-in-btn--login{
+          color: #999;
+          box-shadow: inset 0 0 0 2px #e6e6e6;
+          transition: background-color .2s ease;
+        }
+        
+
+        .l-header-upper__service-in-btn--signup{ 
+          color: #fff;
+          background-color: #ffa408;
+          text-shadow: 0 0 3px #e68600;
+          transition: background-color .2s ease; 
+
+
+        }
+        
+
+
+        ._fallback_style{
+          overflow-x: hidden;
+          background-image: url(bg_main.gif);
+          background-repeat: no-repeat;
+          background-position: center top;
+          padding-top: 50px;
+        }
+
+
+        ._fallback_style{
+
+          letter-spacing: normal;
+
+        }
+
+
+      
+        
+
+
+
+      .heading_1{
+        font-size: 3.5vw;
+        text-align: center;
+        color: #14c3dc;
+        font-weight: 700;
+        display: inline-block;
+      }
+
+      .mb_20.show_pc{
+        margin-bottom: 20px!important;
+      }
+
+
+
+
+      .sp_lead.show_sp{
+        color: #14c3dc;
+        display: inline-block;
+
+      }
+
+
+      .top_lead .fc_white_sh.show_pc{
+        margin-bottom: 55px;
+
+      }
+
+
+      .top_3step{
+          margin-top: -100px;
+          background-image: url(bg_pattern1.png);
+          padding-bottom: 20px;
+          height: auto;
+      }
+
+
+      .top_3step_blocks{
+          margin-bottom: 70px;
+          position: relative;
+
+      }
+
+
+      .heading_3{
+        margin-bottom: 8px;
+
+      }
+
+
+
+
+
+      ._fallback_style .content_inner {
+        box-sizing: border-box;
+        position: relative;
+        padding: 0 64px;
+        max-width: 100%;
+        width: 1200px;
+        margin: 0 auto;
+      }
+
+
+
+      .fc_white_sh{
+          color: #fff!important;
+          text-shadow: 0 0 1px rgba(0,0,0,.4);
+      }
+
+      .top_lead{     
+          color: #fff!important;
+          text-shadow: 0 0 1px rgba(0,0,0,.4);
+          margin-bottom: 55px;
+      }
 
 
 
@@ -284,35 +295,18 @@ body {
 
 
 
-/* ご利用料金 */
-.top_price{
-  background-image: url(bg_pattern2.png);
-    padding-bottom: 60px;
-    height: auto;
-
-}
-
-.content_inner{
-    box-sizing: border-box;
-    position: relative;
-    padding: 0 64px;
-    max-width: 100%;
-    width: 1200px;
-    margin: 0 auto;
-}
-
-._fallback_style .heading_1{
-  font-weight: 700;
-  font-size: 40px;
-  font-size: 4.0rem;
-  color: #14c3dc;
-}
 
 
-._fallback_style .top_assistance_service{
-  padding-bottom: 80px;
-  background: url(top_assistance_bg.jpg) center/cover no-repeat;
-}
+
+      }
+
+
+      .heading_1 .fc_white_sh{
+        text-shadow: 0 0 1px rgba(0,0,0,.4);
+        font-weight: 700;
+        margin-bottom: 24px;
+        
+      }
 
 
 
@@ -328,19 +322,63 @@ body {
 
 
 
-/*まずは無料で手軽にスタートするにはこちら！*/
-._fallback_style .top_second_form {
-  background-image: url(bg_pattern1.png);
-  height: auto;
-}
+      /* ご利用料金 */
+      .top_price{
+        background-image: url(bg_pattern2.png);
+          padding-bottom: 60px;
+          height: auto;
+
+      }
+
+      .content_inner{
+          box-sizing: border-box;
+          position: relative;
+          padding: 0 64px;
+          max-width: 100%;
+          width: 1200px;
+          margin: 0 auto;
+      }
+
+      ._fallback_style .heading_1{
+        font-weight: 700;
+        font-size: 40px;
+        font-size: 4.0rem;
+        color: #14c3dc;
+      }
+
+
+      ._fallback_style .top_assistance_service{
+        padding-bottom: 80px;
+        background: url(top_assistance_bg.jpg) center/cover no-repeat;
+      }
 
 
 
 
 
-/*活用事例紹介*/
-.top_usercase{
-  background-image: url(bg_pattern2.png);
-  padding-bottom: 60px;
-  height: auto;
-}
+
+
+
+
+
+
+
+
+
+
+      /*まずは無料で手軽にスタートするにはこちら！*/
+      ._fallback_style .top_second_form {
+        background-image: url(bg_pattern1.png);
+        height: auto;
+      }
+
+
+
+
+
+      /*活用事例紹介*/
+      .top_usercase{
+        background-image: url(bg_pattern2.png);
+        padding-bottom: 60px;
+        height: auto;
+      }
